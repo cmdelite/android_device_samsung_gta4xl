@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2025 The PixelOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gta4xl.mk
+    $(LOCAL_DIR)/custom_gta4xl.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gta4xl-eng \
-    lineage_gta4xl-user \
-    lineage_gta4xl-userdebug
+    custom_gta4xl-eng \
+    custom_gta4xl-user \
+    custom_gta4xl-userdebug
