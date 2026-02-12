@@ -3,3 +3,8 @@ ro.carrier=unknown
 ro.radio.noril=no
 vendor.rild.libpath=/vendor/lib64/libsec-ril.so
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+
+## Axion Configuration
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=2
+
