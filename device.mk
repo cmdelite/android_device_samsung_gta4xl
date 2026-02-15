@@ -43,3 +43,6 @@ PRODUCT_COPY_FILES += \
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung_slsi-linaro/exynos/cpboot_v3
+
+-include vendor/lineage-priv/keys/keys.mk
+include vendor/lineage-priv/keys/keys.mk
